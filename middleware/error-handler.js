@@ -3,3 +3,5 @@ const errorHandlerMiddleWare = (err, req, res, next) => {
     .status(500)
     .json({ message: 'Something went wrong, please try again!!!' });
 };
+
+module.exports = errorHandlerMiddleWare;
