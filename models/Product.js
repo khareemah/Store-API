@@ -15,18 +15,18 @@ const productSchema = new mongoose.Schema({
       values: ['ikea', 'liddy', 'marcos', 'caressa'],
       message: '{VALUE} is not supported',
     },
-    rating: {
-      type: Number,
-      default: 4.5,
-    },
-    createdAt: {
-      type: Date,
-      default: Date.now(),
-    },
-    featured: {
-      type: Boolean,
-      deafult: false,
-    },
+  },
+  rating: {
+    type: Number,
+    default: 4.5,
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now(),
+  },
+  featured: {
+    type: Boolean,
+    default: false,
   },
 });
 
